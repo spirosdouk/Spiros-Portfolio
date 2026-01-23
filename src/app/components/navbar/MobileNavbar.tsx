@@ -11,11 +11,12 @@ export default function MobileNavbar() {
   };
 
   const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#experience", label: "Experience" },
-    { href: "#projects", label: "Projects" },
-    { href: "#courses", label: "Courses" },
-    { href: "#contact", label: "Contact Me" },
+    { href: "/#about", label: "About" },
+    { href: "/#experience", label: "Experience" },
+    { href: "/#projects", label: "Projects" },
+    { href: "/#courses", label: "Courses" },
+    { href: "/blog", label: "Blog" },
+    { href: "/#contact", label: "Contact Me" },
   ];
 
   return (

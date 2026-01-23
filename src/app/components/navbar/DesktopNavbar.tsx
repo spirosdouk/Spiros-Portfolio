@@ -29,13 +29,19 @@ export default function Navbar() {
             <div className="flex space-x-4">
               {navLinks.map((link) => (
                 <a
-                  href={`#${link}`}
+                  href={`/#${link}`}
                   key={link}
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
                 >
                   {link.charAt(0).toUpperCase() + link.slice(1)}
                 </a>
               ))}
+              <a
+                href="/blog"
+                className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
+              >
+                Blog
+              </a>
             </div>
           </div>
 
