@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.0",
     "@mui/material": "^6.1.0",
+    "@vercel/analytics": "^1.6.1",
     "gray-matter": "^4.0.3",
     "next": "^14.2.35",
     "next-mdx-remote": "^5.0.0",
@@ -43,11 +44,11 @@
     "typescript": "^5"
   },
   "overrides": {
-  "@next/eslint-plugin-next": {
-    "glob": "10.5.0"
-  },
-  "sucrase": {
-    "glob": "10.5.0"
+    "@next/eslint-plugin-next": {
+      "glob": "10.5.0"
+    },
+    "sucrase": {
+      "glob": "10.5.0"
+    }
   }
-}
 }
