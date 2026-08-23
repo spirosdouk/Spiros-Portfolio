@@ -23,11 +23,30 @@ export default function ExperienceSection() {
                 September 2024 - Currently
               </time>
               <h3 className="text-sm lg:text-lg font-semibold  dark:text-white">
-                (FullTime) Front End Developer (React/React Native) at Logicea
+                (FullTime) Software Engineer at Logicea, Remote
               </h3>
-              <p className="text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
-                Leading innovative projects with cutting-edge technologies.
-              </p>
+              <ul className="mt-2 list-disc pl-5 space-y-1 text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
+                <li>
+                  Collaborated with designers, engineering teams, and accounting
+                  staff to modernize legacy accounting platforms and build SSO
+                  hubs across products.
+                </li>
+                <li>
+                  Rebuilt a legacy Laravel multi-tenant platform with Next.js,
+                  React, TypeScript, and MySQL, improving page load speed and
+                  maintainability.
+                </li>
+                <li>
+                  Built a single account hub with NextAuth, AWS Cognito, Stripe,
+                  and REST APIs for login, subscriptions, and purchases across
+                  apps.
+                </li>
+                <li>
+                  Stabilized AADE/myDATA tax integrations with a
+                  TypeScript/Node.js caching layer, cutting external calls by
+                  85%.
+                </li>
+              </ul>
             </div>
           </li>
           <li className="mb-10 ml-4 flex">
@@ -41,17 +60,31 @@ export default function ExperienceSection() {
             />
             <div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-300">
-                October 2024 - July 2025
+                October 2024 - Currently
               </time>
               <h3 className="text-sm lg:text-lg font-semibold  dark:text-white">
-                (Scholarship) Undergraduate Scholar, Human-Computer Interaction
-                (HCI) Lab
+                (Research Fellow) Software Engineer at ICS-FORTH, Heraklion
               </h3>
-              <p className="text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
-                Participated in projects focused on enhancing user interaction
-                with computing technologies, aligning with the institute’s
-                strategic objectives.
-              </p>
+              <ul className="mt-2 list-disc pl-5 space-y-1 text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
+                <li>
+                  Worked with researchers and engineers across FORTH and partner
+                  universities on full-stack apps and EU-funded research
+                  (GreenInCities).
+                </li>
+                <li>
+                  Built the GreenInCities monitoring platform for Profitis Ilias
+                  Park with Next.js, React, TypeScript, and Socket.IO for
+                  real-time sensor streams.
+                </li>
+                <li>
+                  Integrated NestJS and MongoDB to store and stream NGSI-LD
+                  broker data into multi-widget dashboards.
+                </li>
+                <li>
+                  Secured REST APIs with Keycloak OIDC, JWT verification, and
+                  refresh-token sessions for multi-tenant partner logins.
+                </li>
+              </ul>
             </div>
           </li>
           <li className="mb-10 ml-4 flex">
@@ -65,13 +98,46 @@ export default function ExperienceSection() {
             />
             <div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-300">
-                June 2024 - October 2024
+                June 2024 - September 2024
               </time>
               <h3 className="text-sm lg:text-lg font-semibold  dark:text-white">
-                (Internship) Front End Web Developer at Logicea
+                (Internship) Frontend Developer Intern at Logicea, Hybrid
+              </h3>
+              <ul className="mt-2 list-disc pl-5 space-y-1 text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
+                <li>
+                  Built a demo web app with React, Next.js, TypeScript, and Git
+                  in an agile team of 7 intern developers.
+                </li>
+                <li>
+                  Built responsive UI components from Figma specs using HTML and
+                  CSS.
+                </li>
+                <li>
+                  Reviewed PRs in daily Git sessions with a senior developer to
+                  match company engineering standards.
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li className="mb-10 ml-4 flex">
+            <div className="absolute w-3 h-3 dark:bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900" />
+            <Image
+              src="/images/uoc_logo.png"
+              alt="Company Logo"
+              width={48}
+              height={48}
+              className="w-12 h-12 mt-1 mr-4"
+            />
+            <div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-300">
+                Expected 2027
+              </time>
+              <h3 className="text-sm lg:text-lg font-semibold dark:text-white">
+                (Masters Degree) University of Crete, Department of Computer
+                Science
               </h3>
               <p className="text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
-                Leading innovative projects with cutting-edge technologies.
+                FORTH-ICS Graduate Research Scholarship Recipient.
               </p>
             </div>
           </li>
@@ -86,38 +152,14 @@ export default function ExperienceSection() {
             />
             <div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-300">
-                September 2021 - September 2025
+                Graduated
               </time>
               <h3 className="text-sm lg:text-lg font-semibold dark:text-white">
                 (Bachelors Degree) University of Crete, Department of Computer
                 Science
               </h3>
               <p className="text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
-                Focused on computing technology research and innovative project
-                participation.
-              </p>
-            </div>
-          </li>
-          <li className="mb-10 ml-4 flex">
-            <div className="absolute w-3 h-3 dark:bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900" />
-            <Image
-              src="/images/forth_logo.png"
-              alt="Company Logo"
-              width={48}
-              height={48}
-              className="w-12 h-12 mt-1 mr-4"
-            />
-            <div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-300">
-                June 2023 - July 2023
-              </time>
-              <h3 className="text-sm lg:text-lg font-semibold  dark:text-white">
-                (Summer Internship) Summer Internship utilizing RDMA networks in
-                Key-Value Data Store Systems
-              </h3>
-              <p className="text-sm lg:text-base font-normal text-gray-500 dark:text-gray-400">
-                Engaged in key-value data storage optimization techniques
-                through RDMA network technology.
+                FORTH-ICS Undergraduate Research Scholarship Recipient.
               </p>
             </div>
           </li>

@@ -5,13 +5,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Spiros Doukeris - Frontend Developer Portfolio",
+    default: "Spiros Doukeris - Software Engineer Portfolio",
     template: "%s | Spiros Doukeris",
   },
   description:
-    "Experienced Frontend Developer specializing in React, Next.js, and TypeScript. View my portfolio showcasing modern web applications and innovative projects.",
+    "Software Engineer specializing in React, Next.js, and TypeScript. View my portfolio showcasing modern web applications, research, and full-stack projects.",
   keywords: [
-    "Frontend Developer",
+    "Software Engineer",
     "React Developer",
     "Next.js",
     "TypeScript",
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     "Spiros Doukeris",
     "Computer Science",
     "Full Stack Developer",
+    "ICS-FORTH",
   ],
   authors: [{ name: "Spiros Doukeris" }],
   creator: "Spiros Doukeris",
@@ -32,24 +33,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://spiros-portfolio.vercel.app",
-    title: "Spiros Doukeris - Frontend Developer Portfolio",
+    title: "Spiros Doukeris - Software Engineer Portfolio",
     description:
-      "Experienced Frontend Developer specializing in React, Next.js, and TypeScript. View my portfolio showcasing modern web applications.",
+      "Software Engineer specializing in React, Next.js, and TypeScript. View my portfolio showcasing modern web applications and research.",
     siteName: "Spiros Doukeris Portfolio",
     images: [
       {
         url: "/images/profile.png",
         width: 800,
         height: 600,
-        alt: "Spiros Doukeris - Frontend Developer",
+        alt: "Spiros Doukeris - Software Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Spiros Doukeris - Frontend Developer Portfolio",
+    title: "Spiros Doukeris - Software Engineer Portfolio",
     description:
-      "Experienced Frontend Developer specializing in React, Next.js, and TypeScript.",
+      "Software Engineer specializing in React, Next.js, and TypeScript.",
     images: ["/images/profile.png"],
   },
   robots: {

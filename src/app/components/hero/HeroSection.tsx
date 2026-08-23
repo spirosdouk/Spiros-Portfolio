@@ -20,7 +20,7 @@ export default function HeroSection() {
                 Spiros Doukeris
               </h2>
               <h3 className="text-sm font-normal lg:text-xl mb-4 text-gray-600 dark:text-gray-300">
-                Computer Science Under-Graduate
+                Software Engineer
               </h3>
             </div>
 
@@ -55,11 +55,12 @@ export default function HeroSection() {
 
         <div className="max-w-lg">
           <h1 className="text-3xl lg:text-5xl font-bold leading-tight">
-            Hey, I&apos;m an aspiring Frontend Developer.
+            Hey, I&apos;m a Software Engineer.
           </h1>
           <p className="mt-2 text-gray-300">
-            I&apos;m Spiros, a student at the University of Crete with a passion
-            for web development.
+            I&apos;m Spiros, a Software Engineer at Logicea and Research Fellow
+            at ICS-FORTH, pursuing an M.Sc. in Computer Science at the
+            University of Crete.
           </p>
           <div className="flex items-center space-x-4 mt-12">
             <button
@@ -92,7 +93,7 @@ export default function HeroSection() {
               Spiros Doukeris
             </p>
             <h3 className="text-sm font-normal lg:text-lg mb-4 text-gray-600 dark:text-gray-300">
-              Computer Science Under-Graduate
+              Software Engineer
             </h3>
             <div className="flex justify-center space-x-4 mt-2">
               <a

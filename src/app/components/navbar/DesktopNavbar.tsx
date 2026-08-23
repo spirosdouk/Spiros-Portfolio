@@ -33,7 +33,9 @@ export default function Navbar() {
                   key={link}
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
                 >
-                  {link.charAt(0).toUpperCase() + link.slice(1)}
+                  {link === "courses"
+                    ? "Publications & Professional Service "
+                    : link.charAt(0).toUpperCase() + link.slice(1)}
                 </a>
               ))}
               <a

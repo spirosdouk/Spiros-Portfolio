@@ -14,7 +14,7 @@ export default function MobileNavbar() {
     { href: "/#about", label: "About" },
     { href: "/#experience", label: "Experience" },
     { href: "/#projects", label: "Projects" },
-    { href: "/#courses", label: "Courses" },
+    { href: "/#courses", label: "Publications & Professional Service" },
     { href: "/blog", label: "Blog" },
     { href: "/#contact", label: "Contact Me" },
   ];

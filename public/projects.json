@@ -1,5 +1,15 @@
 [
   {
+    "id": "uoc-assistant",
+    "title": "UoC-Assistant",
+    "description": "A full-stack student planner built with React, TypeScript, CSS, HTML, FastAPI, and Python that generates custom semester plans based on work hours and goals, using Python checks to enforce prerequisites and prevent exam overlaps. Includes a Gemini API RAG chatbot over academic PDFs with exact source citations.",
+    "imageUrl": "/images/uoc_logo.png",
+    "imageAlt": "UoC-Assistant Student Academic Platform",
+    "techStack": ["react", "typescript"],
+    "liveDemoUrl": null,
+    "githubUrl": "https://github.com/spirosdouk/uoc-assistant"
+  },
+  {
     "id": "gamehub",
     "title": "GameHub",
     "description": "A video game discovery app that helps you find new and interesting games to play.",

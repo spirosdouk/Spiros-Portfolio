@@ -55,39 +55,38 @@ const ContactFormSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Spiros Doukeris - Frontend Developer Portfolio",
+  title: "Spiros Doukeris - Software Engineer Portfolio",
   description:
-    "Explore the portfolio of Spiros Doukeris, a dedicated Frontend Developer showcasing his journey from Computer Science student to professional developer at Logicea.",
+    "Explore the portfolio of Spiros Doukeris, a Software Engineer at Logicea and Research Fellow at ICS-FORTH, currently pursuing an M.Sc. in Computer Science at the University of Crete.",
   openGraph: {
-    title: "Spiros Doukeris - Frontend Developer",
+    title: "Spiros Doukeris - Software Engineer",
     description:
-      "Discover the projects and technical skills of Spiros Doukeris on his official portfolio website. Featuring React, Next.js, TypeScript, and Unity projects.",
+      "Discover the projects and technical skills of Spiros Doukeris on his official portfolio website. Featuring React, Next.js, TypeScript, and full-stack work.",
     images: [
       {
         url: "https://spiros-portfolio.vercel.app/images/profile.png",
         width: 800,
         height: 600,
-        alt: "Spiros Doukeris - Frontend Developer Profile Picture",
+        alt: "Spiros Doukeris - Software Engineer Profile Picture",
       },
     ],
     url: "https://spiros-portfolio.vercel.app/",
   },
   keywords: [
-    "frontend development",
+    "software engineer",
     "web development",
     "programming portfolio",
     "Spiros Doukeris",
-    "Computer Science Under-Graduate",
+    "Computer Science M.Sc.",
     "Computer Science",
     "React",
     "Next.js",
     "TypeScript",
     "Logicea",
+    "ICS-FORTH",
     "University of Crete",
-    "React Native",
-    "Angular",
-    "Unity",
-    "C#",
+    "NestJS",
+    "Node.js",
     "JavaScript",
     "Full Stack Developer",
   ],

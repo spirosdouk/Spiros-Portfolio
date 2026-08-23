@@ -5,9 +5,9 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Spiros Doukeris",
-    jobTitle: "Frontend Developer",
+    jobTitle: "Software Engineer",
     description:
-      "Experienced Frontend Developer specializing in React, Next.js, and TypeScript",
+      "Software Engineer specializing in React, Next.js, and TypeScript",
     url: "https://spiros-portfolio.vercel.app",
     image: "https://spiros-portfolio.vercel.app/images/profile.png",
     sameAs: [
@@ -27,17 +27,17 @@ export default function StructuredData() {
       "React",
       "Next.js",
       "TypeScript",
-      "Frontend Development",
+      "Software Engineering",
       "Web Development",
       "JavaScript",
-      "React Native",
-      "Angular",
-      "Unity",
-      "C#",
+      "NestJS",
+      "Node.js",
+      "MongoDB",
+      "MySQL",
     ],
     hasOccupation: {
       "@type": "Occupation",
-      name: "Frontend Developer",
+      name: "Software Engineer",
       occupationLocation: {
         "@type": "Country",
         name: "Greece",
@@ -48,6 +48,7 @@ export default function StructuredData() {
   return (
     <script
       type="application/ld+json"
+      // eslint-disable-next-line react/no-danger -- static JSON-LD, not user HTML
       dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
     />
   );
